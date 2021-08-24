@@ -6,10 +6,16 @@
 
 var btnTranslate = document.querySelector("#translate-btn")
 var textInput = document.querySelector("#text-input")
+var outputDiv = document.querySelector("#output")
 
 // console.log(textInput)
 
 btnTranslate.addEventListener("click", function clickEventHandler() {
-    console.log("Clicked")
-    console.log("input: " + textInput.value);
+    // console.log("Clicked")
+    // console.log("input: " + textInput.value);
+
+    outputDiv.innerText = "asasasasasasa " + textInput.value
 })
+
+
+// outputDiv.innerText = "Saboor Ansari"
