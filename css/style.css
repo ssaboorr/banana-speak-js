@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: yellow;
+    height: 100px;
+    margin-top: 2px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-shadow: 3px;
+    font-size: large;
+}
+
+textarea {
+    width: 55rem;
+    height: 10rem;
+}
+
+button {
+    background-color: yellow;
+    height: 5rem;
+    width: 55rem;
+    flex-wrap: wrap;
+}
+
+.output h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: yellow;
+}
