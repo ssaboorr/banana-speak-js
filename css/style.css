@@ -1,13 +1,17 @@
-* {
-    box-sizing: border-box;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 .container-fluid {
     background-color: yellow;
     height: 100px;
     margin-top: 2px;
     text-align: center;
     flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+h6 {
+    font-family: 'Rampart One', cursive;
 }
 
 h1 {
@@ -32,6 +36,12 @@ button {
 }
 
 footer {
+    height: 20rem;
     text-align: center;
     background-color: yellow;
+}
+
+.text {
+    font-family: 'Rampart One', cursive;
+    font-size: 3rem;
 }
