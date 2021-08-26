@@ -39,9 +39,18 @@ footer {
     height: 20rem;
     text-align: center;
     background-color: yellow;
+    margin-top: 2rem;
 }
 
 .text {
     font-family: 'Rampart One', cursive;
     font-size: 3rem;
+}
+
+.container-head {
+    margin-bottom: 3rem;
+}
+
+.footer {
+    margin-top: 3rem;
 }
