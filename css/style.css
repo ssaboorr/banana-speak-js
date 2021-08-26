@@ -49,6 +49,9 @@ footer {
 
 .container-head {
     margin-bottom: 3rem;
+    background-color: yellow;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
 }
 
 .footer {
